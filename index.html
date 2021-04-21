@@ -7,7 +7,9 @@
 	function myFunction1()
 	{
 	var a = document.getElementById("a").value;
+	a = parseFloat(a);
 	var b = document.getElementById("b").value;
+	b = parseFloat(b);
 	var c = 0;
 	c = a + b;
 	document.getElementById("wynik").innerHTML = c ;
